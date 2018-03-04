@@ -1,11 +1,11 @@
 # Project Ignore files
-*/cron/
-*/errors/
-*/databases/
-*/sessions/
-*/uploads/
-*/private/
-*/00_local/
+cron/
+errors/
+databases/
+sessions/
+uploads/
+private/
+00_local/
 
 
 ### Linux ###
