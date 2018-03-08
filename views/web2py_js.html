@@ -14,7 +14,7 @@ ajax_error_500 = T.M('An error occured, please [[reload %s]] the page') % URL(ar
 tal.load("https://fonts.googleapis.com/icon?family=Material+Icons", "icons.css")
 
 {{if request.is_local:}}
-    tal.load("{{=STATIC('materialize/0.100.2/materialize.min.css')}}", "materialize.css");
+    tal.load("{{=STATIC('css/charm.css')}}", "charm.css");
     tal.load("{{=STATIC('jquery/3.3.1/jquery.min.js')}}", "jquery");
     tal.load("{{=STATIC('materialize/0.100.2/materialize.min.js')}}", "materialize", "jquery");
 {{else:}}
